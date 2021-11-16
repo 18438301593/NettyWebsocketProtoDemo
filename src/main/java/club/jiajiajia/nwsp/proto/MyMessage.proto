@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+option java_package = "club.jiajiajia.nwsp.dto";
+option java_outer_classname="MyMessage";
+
+message MyMessageInfo{
+  int32 id = 1;  // id
+  string name = 2;  // 姓名
+  int32 age = 3; // 年龄
+}
